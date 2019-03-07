@@ -1,13 +1,13 @@
 <?php
 session_start();
 $fullNameValue = "";
-$totalValue2 = "";
+$totalValue = "";
 /*
  * create a session variable for the mobile number
  */
 $totalValue = $_post['txtTotal'];
 $_SESSION['txtName'] = $fullNameValue;
-$_SESSION['txtTotal'] = $totalValue2;
+$_SESSION['txtTotal'] = $totalValue;
 
 /*
  * allocate the mobile number session variable to a text box
@@ -18,7 +18,7 @@ $_SESSION['txtTotal'] = $totalValue2;
 <!DOCTYPE html>
 <html>
     <head>
-        <title>eBusiness 3</title>
+        <title>Information</title>
         <style>
             
 input[type=text], select {
@@ -75,7 +75,7 @@ div {
                         </tr>
                         <tr>
                             <td>phone Number</td>
-                            <td><input type ="text" id="txtName" name ="txtName" value="" required/></td>
+                            <td><input type ="text" id="txtNumber" name ="txtNumber" value="" required/></td>
                         </tr>
                         
                         <tr>
