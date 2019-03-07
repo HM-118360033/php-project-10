@@ -4,15 +4,50 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
-<?php include_once("index.html")?>
 <html>
     <head>
+        <title>Index</title>
         <meta charset="UTF-8">
-        <title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body{
+                background-color: black;
+               
+            }
+            form{
+                size: 30px;
+            }
+            input[type=submit] {
+            width: 100%;
+            background-color: #3366ff;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+}
+        </style>
     </head>
+    
     <body>
-        <?php
-     
-        ?>
+        <div>
+            <h1 style=" color:white">MULCAHY Consulting</h1>
+        <br>
+        <br>
+        <br>
+        <hr>
+        </div>
+    
+            <form action="CV.html">
+             <input type="submit" value="CV" />
+            </form>
+            <form action="tiltedpage_scroll_demo.html">
+             <input type="submit" value="Interests" />
+            </form> 
+        <form action="consulting_services.html">
+             <input type="submit" value="Consulting Services" />
+            </form> 
+        
     </body>
 </html>
